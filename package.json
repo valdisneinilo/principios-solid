@@ -1,0 +1,23 @@
+{
+  "name": "solid",
+  "version": "1.0.0",
+  "description": "fundamentos dos princípios S.O.L.I.D.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valdisneinilo/principios-solid.git"
+  },
+  "keywords": [
+    "solid",
+    "typescript"
+  ],
+  "author": "Valdisnei Nilo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valdisneinilo/principios-solid/issues"
+  },
+  "homepage": "https://github.com/valdisneinilo/principios-solid#readme"
+}
