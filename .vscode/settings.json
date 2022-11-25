@@ -1,0 +1,12 @@
+//configuração para rodar o código em TypeScript no terminal do VSCode com code runner
+{
+  "code-runner.executorMap": {
+    "typescript": "clear && npx ts-node --files --transpile-only"
+  },
+  // cls --> limpa o terminal do VSCode antes de executar o código no windows, prar limpar o terminal no linux é < clear >
+  // npx ts-node --> executa o ts-node
+  // files --> executa todos os arquivos
+  // transpile-only --> não verifica se o código está correto, apenas executa, isso deixa a compilacao mais rápida
+
+  "include": ["./src"]
+}
